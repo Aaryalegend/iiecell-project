@@ -1,0 +1,37 @@
+import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
+const HeroSection = () => {
+  return (
+    <section className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-indigo-800 text-white">
+      {/* Background Overlay */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      
+      {/* Content */}
+      <div className="container-custom relative z-10">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Empowering Startups, <br />
+            <span className="text-blue-400">Driving Innovation</span>
+          </h1>
+          
+          <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
+            Innovation Incubator and Entrepreneurship Cell is a Section 8 company fostering entrepreneurship and supporting innovative startups.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link to="/apply" className="btn-primary text-center flex-1 sm:flex-none px-8 py-3 text-lg flex items-center justify-center gap-2 group">
+              Apply Now
+              <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+            </Link>
+            <Link to="/programs" className="btn-secondary text-center flex-1 sm:flex-none px-8 py-3 text-lg">
+              Explore Programs
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
