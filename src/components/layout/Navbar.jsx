@@ -20,11 +20,11 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-          <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
           <Link to="/programs" className="text-gray-700 hover:text-blue-600 font-medium">Programs</Link>
           <Link to="/startups" className="text-gray-700 hover:text-blue-600 font-medium">Startups</Link>
           <Link to="/resources" className="text-gray-700 hover:text-blue-600 font-medium">Resources</Link>
           <Link to="/events" className="text-gray-700 hover:text-blue-600 font-medium">Events</Link>
+          <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
           <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
         </nav>
 

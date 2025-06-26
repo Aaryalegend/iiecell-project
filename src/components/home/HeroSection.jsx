@@ -1,9 +1,17 @@
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import backgroundImage from '../../assets/images/hero-bg.png';
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-indigo-800 text-white">
+    <section
+      className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-indigo-800 text-white"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'fill',
+        backgroundPosition: 'center',
+      }}
+    >
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
       
