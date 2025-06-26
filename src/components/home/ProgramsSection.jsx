@@ -16,7 +16,7 @@ const ProgramsSection = () => {
       title: "Tech Accelerator",
       description: "6-month intensive program helping tech startups scale rapidly.",
       icon: <FaLaptopCode className="text-white text-3xl" />,
-      color: "bg-indigo-600",
+      color: "bg-teal-600",
       link: "/programs/accelerator"
     },
     {
@@ -32,7 +32,7 @@ const ProgramsSection = () => {
       title: "Entrepreneurship Training",
       description: "Skill development workshops for aspiring entrepreneurs.",
       icon: <FaGraduationCap className="text-white text-3xl" />,
-      color: "bg-teal-600",
+      color: "bg-indigo-600",
       link: "/programs/training"
     }
   ];

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <section className="py-16 bg-gradient-to-r from-blue-400 to-indigo-700 text-white">
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>

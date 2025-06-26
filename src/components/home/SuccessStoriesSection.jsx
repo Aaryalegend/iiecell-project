@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { FaQuoteLeft, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import ecoInnovateImg from '../../assets/startups/ecoinnovate.jpg';
+import healthTechImg from '../../assets/startups/healthtech.jpg';
+import eduLearnImg from '../../assets/startups/edulearn.jpg';
 
 const SuccessStoriesSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,7 +14,7 @@ const SuccessStoriesSection = () => {
       founderName: "Priya Sharma",
       description: "A cleantech startup that developed sustainable packaging solutions, raised $2M in Series A funding, and now has clients across 5 countries.",
       quote: "IIE Cell provided us with not just infrastructure but a complete ecosystem to grow. Their mentorship and connections were invaluable in our journey from idea to market leader.",
-      image: "/startups/eco-innovate.jpg", // Placeholder
+      image: ecoInnovateImg,
       logo: "/startups/eco-innovate-logo.png", // Placeholder
     },
     {
@@ -20,7 +23,7 @@ const SuccessStoriesSection = () => {
       founderName: "Rajiv Mehta",
       description: "Created an AI-powered diagnostic platform that is now being used in over 100 hospitals nationwide, improving healthcare access in rural areas.",
       quote: "The structured incubation program and access to industry experts helped us navigate regulatory challenges and accelerate our product development cycle.",
-      image: "/startups/healthtech.jpg", // Placeholder
+      image: healthTechImg,
       logo: "/startups/healthtech-logo.png", // Placeholder
     },
     {
@@ -29,7 +32,7 @@ const SuccessStoriesSection = () => {
       founderName: "Aisha Patel",
       description: "An edtech platform connecting rural students with urban teachers, having impacted over 50,000 students across India.",
       quote: "The mentorship at IIE Cell was transformative for our business model. Their focus on social impact alongside financial sustainability helped us create a truly scalable solution.",
-      image: "/startups/edulearn.jpg", // Placeholder
+      image: eduLearnImg,
       logo: "/startups/edulearn-logo.png", // Placeholder
     }
   ];
@@ -62,16 +65,20 @@ const SuccessStoriesSection = () => {
             <div className="h-64 lg:h-auto relative bg-gray-200">
               {/* Placeholder for actual startup image */}
               <div className="h-full flex items-center justify-center">
-                <span className="text-gray-500">Startup Image</span>
+                <img 
+                  src={successStories[currentIndex].image} 
+                  alt={`${successStories[currentIndex].companyName} image`}
+                  className="object-cover w-full h-full"
+                />
               </div>
               
               {/* Company logo overlay */}
-              <div className="absolute bottom-5 left-5 bg-white p-2 rounded-md shadow-md">
-                {/* Placeholder for company logo */}
+              {/* <div className="absolute bottom-5 left-5 bg-white p-2 rounded-md shadow-md">
+                
                 <div className="h-12 w-20 bg-gray-100 flex items-center justify-center rounded">
                   <span className="text-xs text-gray-500">{successStories[currentIndex].companyName} Logo</span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Right Column - Content */}

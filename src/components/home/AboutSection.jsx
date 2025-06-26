@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaCheckCircle } from 'react-icons/fa';
+import incubationCenterImg from '../../assets/images/incubation-center.jpg';
 
 const AboutSection = () => {
   const features = [
@@ -17,12 +18,12 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Image */}
           <div className="order-2 lg:order-1">
-            {/* Placeholder for actual image */}
-            <div className="aspect-video bg-gray-200 rounded-lg shadow-lg">
-              {/* Actual image would go here */}
-              <div className="h-full flex items-center justify-center">
-                <span className="text-gray-500">Incubation Center Image</span>
-              </div>
+            <div className="aspect-video bg-gray-200 rounded-lg shadow-lg overflow-hidden">
+              <img
+                src={incubationCenterImg}
+                alt="Incubation Center"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
