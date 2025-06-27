@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import wceLogo from '/assets/wcelogo.png'; // Adjust the path as necessary
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,9 +13,12 @@ const Navbar = () => {
   return (
     <header className="bg-white shadow-md fixed w-full z-50">
       <div className="container-custom mx-auto flex justify-between items-center py-4">
+        {/* Logo Section */}
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-blue-600">IIE</span>
-          <span className="text-xl font-semibold text-gray-800">Cell</span>
+          <img src={wceLogo} alt="Walchand Logo" className="h-12 w-12" /> </Link>
+        <Link to="/" className="flex flex-col items-start space-y-0 mr-4">
+          <span className="text-2xl font-bold text-red-600 leading-tight">Walchand</span>
+          <span className="text-xl font-semibold text-gray-800 leading-tight">Engineering and Innovation Council</span>
         </Link>
 
         {/* Desktop Navigation */}

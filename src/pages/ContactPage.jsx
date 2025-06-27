@@ -13,25 +13,18 @@ const ContactPage = () => {
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-2">Address</h3>
               <address className="text-gray-600 not-italic">
-                IIE Cell, Innovation Hub, <br />
-                Technology Park, <br />
-                City - 100001
+                Walchand College Of Engineering, <br />
+                Vishrambaug, Sangli - 416415<br />
               </address>
             </div>
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <a href="mailto:contact@iiecell.org" className="text-blue-600 hover:text-blue-800">
-                contact@iiecell.org
+              <a href="mailto:weic@wlachandsangli.ac.in" className="text-blue-600 hover:text-blue-800">
+                weic@wlachandsangli.ac.in
               </a>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Phone</h3>
-              <a href="tel:+911234567890" className="text-blue-600 hover:text-blue-800">
-                +91 123 456 7890
-              </a>
-            </div>
           </div>
 
           <div>

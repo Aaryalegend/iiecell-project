@@ -72,7 +72,7 @@ const AboutPage = () => {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
             <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4"></div>
-            <h3 className="text-xl font-semibold">Ms. Priya Sharma</h3>
+            <h3 className="text-xl font-semibold">Mr. Vikram Sharma</h3>
             <p className="text-blue-600 mb-3">Director</p>
             <p className="text-gray-600">Expert in startup ecosystem development and venture capital</p>
           </div>

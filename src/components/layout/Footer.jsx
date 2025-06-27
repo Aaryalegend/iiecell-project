@@ -9,8 +9,7 @@ const Footer = () => {
           {/* Column 1 - About */}
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-blue-400">IIE</span>
-              <span className="text-xl font-semibold text-white ml-1">Cell</span>
+              <span className="text-xl font-semibold text-white ml-1">Walchand <br />Engineering and Innovation Council</span>
             </div>
             <p className="text-gray-300 mb-4">
               Innovation Incubator and Entrepreneurship Cell is a Section 8 company dedicated to empowering startups and driving innovation.
@@ -51,26 +50,26 @@ const Footer = () => {
               <li><Link to="/privacy-policy" className="text-gray-300 hover:text-blue-400">Privacy Policy</Link></li>
               <li><Link to="/terms-of-service" className="text-gray-300 hover:text-blue-400">Terms of Service</Link></li>
               <li><Link to="/annual-reports" className="text-gray-300 hover:text-blue-400">Annual Reports</Link></li>
-              <li><span className="text-gray-300">Section 8 CIN: U74999XX2023NPL123456</span></li>
-              <li><span className="text-gray-300">12A/80G Certified</span></li>
+              {/* <li><span className="text-gray-300">Section 8 CIN: U74999XX2023NPL123456</span></li> */}
+              {/* <li><span className="text-gray-300">12A/80G Certified</span></li> */}
             </ul>
           </div>
 
           {/* Column 4 - Contact */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
+              <p>Dean Innovation, Incubation and Entrepreneurship.</p>
             <address className="not-italic">
               <p className="text-gray-300 mb-2">
-                IIE Cell, Innovation Hub, <br />
-                Technology Park, <br />
-                City - 100001
+                Walchand College Of Engineering, <br />
+                Vishrambaug, Sangli - 416415<br />
               </p>
               <p className="text-gray-300 mb-2">
-                <strong>Email:</strong> <a href="mailto:contact@iiecell.org" className="hover:text-blue-400">contact@iiecell.org</a>
+                <strong>Email:</strong> <a href="mailto:weic@wlachandsangli.ac.in" className="text-blue-500 hover:text-blue-400">weic@wlachandsangli.ac.in</a>
               </p>
-              <p className="text-gray-300">
+              {/* <p className="text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+911234567890" className="hover:text-blue-400">+91 123 456 7890</a>
-              </p>
+              </p> */}
             </address>
           </div>
         </div>
@@ -78,7 +77,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center sm:text-left">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Innovation Incubator and Entrepreneurship Cell. All rights reserved.
+            &copy; {new Date().getFullYear()} WCE - INNOVATION INCUBATION AND ENTREPRENEURSHIP CELL. All rights reserved.
           </p>
         </div>
       </div>
