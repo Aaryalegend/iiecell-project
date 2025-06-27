@@ -28,7 +28,7 @@ const ProgramsPage = () => {
         "Go-to-market strategy development",
         "Fundraising preparation and investor deck reviews"
       ],
-      image: "/src/assets/startups/healthtech.jpg",
+      image: "/assets/startups/healthtech.jpg",
       color: "blue"
     },
     socialImpact: {
@@ -54,7 +54,7 @@ const ProgramsPage = () => {
         "Regulatory guidance for social sector",
         "Community engagement and stakeholder management"
       ],
-      image: "/src/assets/startups/ecoinnovate.jpg",
+      image: "/assets/startups/ecoinnovate.jpg",
       color: "green"
     },
     studentEntrepreneur: {
@@ -80,7 +80,7 @@ const ProgramsPage = () => {
         "Business model canvas development",
         "Pitch training and presentation skills"
       ],
-      image: "/src/assets/startups/edulearn.jpg",
+      image: "/assets/startups/edulearn.jpg",
       color: "amber"
     },
     growthAccelerator: {
@@ -106,7 +106,7 @@ const ProgramsPage = () => {
         "International market entry guidance",
         "Advanced financial modeling and planning"
       ],
-      image: "/src/assets/images/incubation-center.jpg",
+      image: "/assets/images/incubation-center.jpg",
       color: "purple"
     }
   };

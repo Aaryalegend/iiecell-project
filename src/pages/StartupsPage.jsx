@@ -11,8 +11,8 @@ const StartupsPage = () => {
       name: "EcoInnovate",
       tagline: "Revolutionizing waste management through AI",
       description: "EcoInnovate developed an AI-powered waste sorting system that increases recycling efficiency by 78%. Their technology is now being used in 12 cities across India.",
-      logo: "/src/assets/startups/ecoinnovate.jpg",
-      image: "/src/assets/startups/ecoinnovate.jpg",
+      logo: "/assets/startups/ecoinnovate.jpg",
+      image: "/assets/startups/ecoinnovate.jpg",
       sector: "CleanTech",
       foundedYear: 2023,
       metrics: {
@@ -25,15 +25,15 @@ const StartupsPage = () => {
       founderQuote: "The mentorship and ecosystem support from IIE Cell were crucial in helping us refine our technology and secure our first enterprise clients.",
       founderName: "Priya Sharma",
       founderPosition: "Co-founder & CEO",
-      founderImage: "/src/assets/startups/founders/priya.jpg"
+      founderImage: "/assets/startups/founders/priya.jpg"
     },
     {
       id: 2,
       name: "EduLearn",
       tagline: "Personalized learning for every child",
       description: "EduLearn's adaptive learning platform uses machine learning to create personalized education paths for K-12 students, resulting in 42% improvement in learning outcomes.",
-      logo: "/src/assets/startups/edulearn.jpg",
-      image: "/src/assets/startups/edulearn.jpg",
+      logo: "/assets/startups/edulearn.jpg",
+      image: "/assets/startups/edulearn.jpg",
       sector: "EdTech",
       foundedYear: 2022,
       metrics: {
@@ -46,15 +46,15 @@ const StartupsPage = () => {
       founderQuote: "The connections we made through IIE Cell's network gave us access to our first pilot schools. The structured incubation program helped us transform from a concept to a viable business.",
       founderName: "Arjun Mehta",
       founderPosition: "Founder & CTO",
-      founderImage: "/src/assets/startups/founders/arjun.jpg"
+      founderImage: "/assets/startups/founders/arjun.jpg"
     },
     {
       id: 3,
       name: "HealthTech Solutions",
       tagline: "Affordable diagnostics for rural India",
       description: "HealthTech developed a portable diagnostic device that can conduct 12 different medical tests at 1/10th the cost, bringing essential healthcare to underserved rural communities.",
-      logo: "/src/assets/startups/healthtech.jpg",
-      image: "/src/assets/startups/healthtech.jpg",
+      logo: "/assets/startups/healthtech.jpg",
+      image: "/assets/startups/healthtech.jpg",
       sector: "MedTech",
       foundedYear: 2023,
       metrics: {
@@ -67,15 +67,15 @@ const StartupsPage = () => {
       founderQuote: "IIE Cell's specialized medical device program helped us navigate the complex regulatory landscape and connected us with healthcare experts who became our advisors and early adopters.",
       founderName: "Dr. Suresh Kumar",
       founderPosition: "Co-founder & CEO",
-      founderImage: "/src/assets/startups/founders/suresh.jpg"
+      founderImage: "/assets/startups/founders/suresh.jpg"
     },
     {
       id: 4,
       name: "AgriConnect",
       tagline: "Digitizing farm-to-market supply chains",
       description: "AgriConnect's platform connects farmers directly to businesses, eliminating middlemen and increasing farmer income by 40% while reducing food wastage in the supply chain.",
-      logo: "/src/assets/startups/agrotech.jpg",
-      image: "/src/assets/startups/agrotech.jpg",
+      logo: "/assets/startups/agrotech.jpg",
+      image: "/assets/startups/agrotech.jpg",
       sector: "AgriTech",
       foundedYear: 2022,
       metrics: {
@@ -88,15 +88,15 @@ const StartupsPage = () => {
       founderQuote: "The mentors at IIE Cell helped us refine our business model to create value for all stakeholders in the agricultural supply chain. Their support was instrumental in our rapid growth.",
       founderName: "Rajesh Patel",
       founderPosition: "Co-founder",
-      founderImage: "/src/assets/startups/founders/rajesh.jpg"
+      founderImage: "/assets/startups/founders/rajesh.jpg"
     },
     {
       id: 5,
       name: "FinSecure",
       tagline: "Blockchain solutions for financial inclusion",
       description: "FinSecure has developed a blockchain-based identity verification system that has helped banks reduce KYC costs by 60% while expanding services to previously unbanked populations.",
-      logo: "/src/assets/startups/finsecure.jpg",
-      image: "/src/assets/startups/finsecure.jpg",
+      logo: "/assets/startups/finsecure.jpg",
+      image: "/assets/startups/finsecure.jpg",
       sector: "FinTech",
       foundedYear: 2023,
       metrics: {
@@ -109,7 +109,7 @@ const StartupsPage = () => {
       founderQuote: "The regulatory sandbox program at IIE Cell allowed us to test our solutions in a controlled environment and demonstrate compliance, which was critical for gaining trust from financial institutions.",
       founderName: "Nisha Agarwal",
       founderPosition: "Founder & CEO",
-      founderImage: "/src/assets/startups/founders/nisha.jpg"
+      founderImage: "/assets/startups/founders/nisha.jpg"
     }
   ];
 
@@ -288,7 +288,7 @@ const StartupsPage = () => {
               <div className="flex items-center">
                 <div className="w-24 h-24 rounded-full overflow-hidden mr-4">
                   <img 
-                    src="/src/assets/startups/founders/Vikram.jpg"
+                    src="/assets/startups/founders/Vikram.jpg"
                     alt="Testimonial"
                     className="w-full h-full object-cover"
                   />
@@ -309,7 +309,7 @@ const StartupsPage = () => {
               <div className="flex items-center">
                 <div className="w-24 h-24 rounded-full overflow-hidden mr-4">
                   <img 
-                    src="/src/assets/startups/founders/Ananya.jpg"
+                    src="/assets/startups/founders/Ananya.jpg"
                     alt="Testimonial"
                     className="w-full h-full object-cover"
                   />
@@ -330,7 +330,7 @@ const StartupsPage = () => {
               <div className="flex items-center">
                 <div className="w-24 h-24 rounded-full overflow-hidden mr-4">
                   <img 
-                    src="/src/assets/startups/founders/Rahul.jpg"
+                    src="/assets/startups/founders/Rahul.jpg"
                     alt="Testimonial"
                     className="w-full h-full object-cover"
                   />
@@ -363,7 +363,7 @@ const StartupsPage = () => {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <img 
-                src="/src/assets/images/incubation-center.jpg" 
+                src="/assets/images/incubation-center.jpg" 
                 alt="Startup Success" 
                 className="w-full h-full object-cover"
               />

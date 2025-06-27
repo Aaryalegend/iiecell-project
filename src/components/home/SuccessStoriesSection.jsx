@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { FaQuoteLeft, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import ecoInnovateImg from '../../assets/startups/ecoinnovate.jpg';
-import healthTechImg from '../../assets/startups/healthtech.jpg';
-import eduLearnImg from '../../assets/startups/edulearn.jpg';
+import ecoInnovateImg from '/assets/startups/ecoinnovate.jpg';
+import healthTechImg from '/assets/startups/healthtech.jpg';
+import eduLearnImg from '/assets/startups/edulearn.jpg';
 
 const SuccessStoriesSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

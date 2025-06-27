@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaCheckCircle } from 'react-icons/fa';
-import incubationCenterImg from '../../assets/images/incubation-center.jpg';
+import incubationCenterImg from '/assets/images/incubation-center.jpg';
 
 const AboutSection = () => {
   const features = [

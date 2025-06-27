@@ -1,6 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import backgroundImage from '../../assets/images/hero-bg.png';
+import backgroundImage from '/assets/images/hero-bg.png';
 
 const HeroSection = () => {
   return (

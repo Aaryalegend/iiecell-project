@@ -1,8 +1,8 @@
-import meityLogo from '../../assets/partners/meity.png';
-import dstLogo from '../../assets/partners/dst.png';
-import startupIndiaLogo from '../../assets/partners/startup-india.png';
-import aimLogo from '../../assets/partners/aim.png';
-import nitiAayogLogo from '../../assets/partners/niti-aayog.png';
+import meityLogo from '/assets/partners/meity.png';
+import dstLogo from '/assets/partners/dst.png';
+import startupIndiaLogo from '/assets/partners/startup-india.png';
+import aimLogo from '/assets/partners/aim.png';
+import nitiAayogLogo from '/assets/partners/niti-aayog.png';
 
 const TrustSignals = () => {
   const partners = [
