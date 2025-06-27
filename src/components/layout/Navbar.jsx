@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import wceLogo from '/assets/wcelogo.png'; // Adjust the path as necessary
-
+import wceLogo from '/assets/wcelogo.png';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,26 +16,61 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-2">
           <img src={wceLogo} alt="Walchand Logo" className="h-12 w-12" /> </Link>
         <Link to="/" className="flex flex-col items-start space-y-0 mr-4">
-          <span className="text-2xl font-bold text-red-600 leading-tight">Walchand</span>
+          <span className="text-xl font-semibold text-gray-800 leading-tight">Walchand</span>
           <span className="text-xl font-semibold text-gray-800 leading-tight">Engineering and Innovation Council</span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
-          <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-          <Link to="/programs" className="text-gray-700 hover:text-blue-600 font-medium">Programs</Link>
-          <Link to="/startups" className="text-gray-700 hover:text-blue-600 font-medium">Startups</Link>
-          <Link to="/resources" className="text-gray-700 hover:text-blue-600 font-medium">Resources</Link>
-          <Link to="/events" className="text-gray-700 hover:text-blue-600 font-medium">Events</Link>
-          <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
-          <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+        <nav className="hidden md:flex flex-nowrap items-center space-x-3 lg:space-x-6 xl:space-x-4">
+          <Link
+            to="/"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Home
+          </Link>
+          <Link
+            to="/programs"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Programs
+          </Link>
+          <Link
+            to="/startups"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Startups
+          </Link>
+          <Link
+            to="/resources"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Resources
+          </Link>
+          <Link
+            to="/events"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Events
+          </Link>
+          <Link
+            to="/about"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            About Us
+          </Link>
+          <Link
+            to="/contact"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+          >
+            Contact
+          </Link>
         </nav>
 
         {/* Apply Now Button */}
         <Link to="/apply" className="hidden md:block">
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" />
-            <div className="px-8 py-2 bg-white rounded-full relative group transition duration-200 text-black hover:bg-transparent">
+            <div className="px-8 py-2 font-bold bg-white rounded-full relative group transition duration-200 text-black hover:bg-transparent hover:text-white">
               Apply Now
             </div>
           </button>

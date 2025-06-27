@@ -31,7 +31,7 @@ const HeroSection = () => {
             <Link to="/apply" className="hidden md:block flex-1 sm:flex-none">
               <button className="p-[3px] relative w-full">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                <div className="px-8 py-3 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent text-lg text-center w-full">
+                <div className="px-8 py-3 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent text-lg text-center w-full hover:text-white">
                   Apply Now
                 </div>
               </button>
