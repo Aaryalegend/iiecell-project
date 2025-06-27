@@ -231,49 +231,51 @@ const ResourcesPage = () => {
       </div>
 
       {/* Toolkits Content */}
-      <div className={`${activeTab === 'toolkits' ? 'block' : 'hidden'}`}>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {toolkits.map(toolkit => (
-            <div key={toolkit.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl border border-gray-100">
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <div className="bg-blue-50 p-3 rounded-lg">
-                    {renderIcon(toolkit.icon)}
-                  </div>
-                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded">
-                    {toolkit.fileType}
-                  </span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-2">{toolkit.title}</h3>
-                <p className="text-gray-600 mb-6">{toolkit.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-500">{toolkit.fileSize}</span>
-                  <a 
-                    href={toolkit.downloadLink} 
-                    className="flex items-center text-blue-600 hover:text-blue-800 font-medium"
-                  >
-                    <span>Download</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                  </a>
-                </div>
+        <div className={`${activeTab === 'toolkits' ? 'block' : 'hidden'}`}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {toolkits.map(toolkit => (
+          <div key={toolkit.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl border border-gray-100">
+            <div className="p-6">
+              <div className="flex justify-between items-start mb-4">
+            <div className="bg-blue-50 p-3 rounded-lg">
+              {renderIcon(toolkit.icon)}
+            </div>
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded">
+              {toolkit.fileType}
+            </span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">{toolkit.title}</h3>
+              <p className="text-gray-600 mb-6">{toolkit.description}</p>
+              <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-500">{toolkit.fileSize}</span>
+            <a 
+              href={toolkit.downloadLink} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-blue-600 hover:text-blue-800 font-medium"
+            >
+              <span>Download</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+            </a>
               </div>
             </div>
-          ))}
+          </div>
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Policy Documents Content */}
-      <div className={`${activeTab === 'policyDocs' ? 'block' : 'hidden'}`}>
-        <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 mb-8">
-          <div className="grid grid-cols-12 bg-gray-50 p-4 border-b text-gray-700 font-medium">
+        {/* Policy Documents Content */}
+          <div className={`${activeTab === 'policyDocs' ? 'block' : 'hidden'}`}>
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 mb-8">
+              <div className="grid grid-cols-12 bg-gray-50 p-4 border-b text-gray-700 font-medium">
             <div className="col-span-5 md:col-span-6">Document Title</div>
             <div className="col-span-4 md:col-span-3">Category</div>
             <div className="col-span-3 hidden md:block">Last Updated</div>
-          </div>
-          
-          {policyDocs.map(doc => (
+              </div>
+              
+              {policyDocs.map(doc => (
             <div key={doc.id} className="grid grid-cols-12 p-4 border-b hover:bg-blue-50 transition-colors">
               <div className="col-span-5 md:col-span-6">
                 <h3 className="font-medium text-gray-900">{doc.title}</h3>
@@ -281,7 +283,7 @@ const ResourcesPage = () => {
               </div>
               <div className="col-span-4 md:col-span-3 flex items-center">
                 <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800">
-                  {doc.category}
+              {doc.category}
                 </span>
               </div>
               <div className="col-span-3 hidden md:flex items-center text-gray-600 text-sm">
@@ -289,47 +291,53 @@ const ResourcesPage = () => {
               </div>
               <div className="col-span-3 md:hidden flex items-center justify-end">
                 <a 
-                  href={doc.downloadLink} 
-                  className="p-1 text-blue-600 hover:text-blue-800"
-                  aria-label={`Download ${doc.title}`}
+              href={doc.downloadLink} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1 text-blue-600 hover:text-blue-800"
+              aria-label={`Download ${doc.title}`}
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                  </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
                 </a>
               </div>
               <div className="col-span-12 md:hidden text-sm text-gray-600 mt-2">
                 <p className="mb-2">{doc.description}</p>
                 <div className="flex justify-between items-center">
-                  <span>{doc.lastUpdated}</span>
-                  <a 
-                    href={doc.downloadLink} 
-                    className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
-                  >
-                    <span>Download {doc.fileType}</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                  </a>
+              <span>{doc.lastUpdated}</span>
+              <a 
+                href={doc.downloadLink} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
+              >
+                <span>Download {doc.fileType}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+              </a>
                 </div>
               </div>
               <div className="hidden md:flex col-span-12 md:col-span-3 md:justify-end md:items-center">
                 <a 
-                  href={doc.downloadLink} 
-                  className="flex items-center text-blue-600 hover:text-blue-800 font-medium"
+              href={doc.downloadLink} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-blue-600 hover:text-blue-800 font-medium"
                 >
-                  <span>Download {doc.fileType}</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                  </svg>
+              <span>Download {doc.fileType}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
                 </a>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
+              ))}
+            </div>
+          </div>
 
-      {/* Blog & News Content */}
+          {/* Blog & News Content */}
       <div className={`${activeTab === 'blogNews' ? 'block' : 'hidden'}`}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {blogNews.map(article => (

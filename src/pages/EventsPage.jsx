@@ -10,7 +10,7 @@ const EventsPage = () => {
       time: "2:00 PM - 4:00 PM",
       location: "Virtual (Zoom)",
       description: "Learn how to secure funding for your startup with expert investors and successful entrepreneurs.",
-      image: "/src/assets/images/incubation-center.jpg",
+      image: "/src/assets/events/1.jpg",
       registerLink: "#"
     },
     {
@@ -20,7 +20,7 @@ const EventsPage = () => {
       time: "10:00 AM - 1:00 PM",
       location: "IIE Campus, Conference Hall B",
       description: "A hands-on workshop focused on developing innovative solutions for real-world problems.",
-      image: "/src/assets/images/hero-bg.png",
+      image: "/src/assets/events/2.jpg",
       registerLink: "#"
     },
     {
@@ -30,7 +30,7 @@ const EventsPage = () => {
       time: "3:00 PM - 5:00 PM",
       location: "Virtual (Microsoft Teams)",
       description: "Join industry leaders as they discuss the future of tech entrepreneurship and emerging opportunities.",
-      image: "/src/assets/startups/healthtech.jpg",
+      image: "/src/assets/events/3.jpg",
       registerLink: "#"
     }
   ];
@@ -54,7 +54,7 @@ const EventsPage = () => {
       date: "January 28, 2025",
       images: [
         "/src/assets/images/incubation-center.jpg",
-        "/src/assets/startups/healthtech.jpg"
+        "/src/assets/startups/finsecure.jpg"
       ],
       description: "Celebrating and supporting women entrepreneurs across various sectors."
     },
@@ -63,7 +63,7 @@ const EventsPage = () => {
       title: "Industry-Academia Partnership Forum",
       date: "December 10, 2024",
       images: [
-        "/src/assets/images/hero-bg.png",
+        "/src/assets/startups/agrotech.jpg",
         "/src/assets/startups/ecoinnovate.jpg"
       ],
       description: "Bridging the gap between academic research and industry applications."
