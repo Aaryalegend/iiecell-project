@@ -8,7 +8,7 @@ const HeroSection = () => {
       className="relative h-screen flex items-center bg-gradient-to-r from-blue-900 to-indigo-800 text-white"
       style={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'fill',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >

@@ -20,12 +20,13 @@ const TrustSignals = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
           {partners.map((partner) => (
-            <div key={partner.id} className="flex items-center justify-center p-4">
+            <div key={partner.id} className="flex flex-col items-center justify-center p-4">
               <img 
                 src={partner.logo} 
                 alt={partner.name} 
                 className="h-24 w-48 object-contain rounded"
               />
+              <span className="mt-2 text-xs text-gray-500 text-center">{partner.name}</span>
             </div>
           ))}
         </div>
