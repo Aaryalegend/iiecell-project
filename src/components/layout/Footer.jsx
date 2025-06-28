@@ -65,7 +65,7 @@ const Footer = () => {
                 Vishrambaug, Sangli - 416415<br />
               </p>
               <p className="text-gray-300 mb-2">
-                <strong>Email:</strong> <a href="mailto:weic@wlachandsangli.ac.in" className="text-blue-500 hover:text-blue-400">weic@wlachandsangli.ac.in</a>
+                <strong>Email:</strong> <a href="mailto:weic@walchandsangli.ac.in" className="text-blue-500 hover:text-blue-400">weic@wlachandsangli.ac.in</a>
               </p>
               {/* <p className="text-gray-300">
                 <strong>Phone:</strong> <a href="tel:+911234567890" className="hover:text-blue-400">+91 123 456 7890</a>
