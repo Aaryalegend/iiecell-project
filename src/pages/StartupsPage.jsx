@@ -353,10 +353,10 @@ const StartupsPage = () => {
                 Apply to our incubation programs and get the support you need to transform your ideas into successful ventures.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="/programs" className="px-6 py-3 bg-white text-indigo-700 hover:bg-indigo-50 transition-colors font-semibold rounded-lg">
+                <a href="/programs" className="px-6 py-3 bg-white text-indigo-700 hover:bg-indigo-50 transition-colors font-semibold rounded-full">
                   Explore Programs
                 </a>
-                <a href="/apply" className="px-6 py-3 bg-transparent border-2 border-white text-white hover:bg-white hover:text-indigo-700 transition-colors font-semibold rounded-lg">
+                <a href="/apply" className="px-6 py-3 bg-transparent border-2 border-white text-white hover:bg-white hover:text-indigo-700 transition-colors font-semibold rounded-full">
                   Apply Now
                 </a>
               </div>

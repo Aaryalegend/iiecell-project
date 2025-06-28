@@ -24,43 +24,43 @@ const Navbar = () => {
         <nav className="hidden md:flex flex-nowrap items-center space-x-3 lg:space-x-6 xl:space-x-4">
           <Link
             to="/"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Home
           </Link>
           <Link
             to="/programs"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Programs
           </Link>
           <Link
             to="/startups"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Startups
           </Link>
           <Link
             to="/resources"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Resources
           </Link>
           <Link
             to="/events"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Events
           </Link>
           <Link
             to="/about"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             About Us
           </Link>
           <Link
             to="/contact"
-            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-md hover:bg-indigo-50"
+            className="whitespace-nowrap text-gray-700 hover:text-indigo-600 font-medium transition-colors duration-200 px-2 py-1 rounded-full hover:bg-indigo-50"
           >
             Contact
           </Link>

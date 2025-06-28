@@ -160,7 +160,7 @@ const EventsPage = () => {
                 <div className="text-center">
                   <a
                     href={event.registerLink}
-                    className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+                    className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300"
                   >
                     Register Now
                   </a>

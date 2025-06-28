@@ -20,7 +20,7 @@ const ContactPage = () => {
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <a href="mailto:weic@wlachandsangli.ac.in" className="text-blue-600 hover:text-blue-800">
+              <a href="mailto:weic@walchandsangli.ac.in" className="text-blue-600 hover:text-blue-800">
                 weic@walchandsangli.ac.in
               </a>
             </div>

@@ -200,7 +200,7 @@ const ResourcesPage = () => {
       <div className="flex flex-wrap justify-center gap-2 md:gap-8 mb-12">
         <button
           onClick={() => setActiveTab('toolkits')}
-          className={`px-6 py-3 text-lg font-medium rounded-lg transition ${
+          className={`px-6 py-3 text-lg font-medium rounded-full transition ${
             activeTab === 'toolkits' 
               ? 'bg-blue-600 text-white shadow-md' 
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -210,7 +210,7 @@ const ResourcesPage = () => {
         </button>
         <button
           onClick={() => setActiveTab('policyDocs')}
-          className={`px-6 py-3 text-lg font-medium rounded-lg transition ${
+          className={`px-6 py-3 text-lg font-medium rounded-full transition ${
             activeTab === 'policyDocs' 
               ? 'bg-blue-600 text-white shadow-md' 
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -220,7 +220,7 @@ const ResourcesPage = () => {
         </button>
         <button
           onClick={() => setActiveTab('blogNews')}
-          className={`px-6 py-3 text-lg font-medium rounded-lg transition ${
+          className={`px-6 py-3 text-lg font-medium rounded-full transition ${
             activeTab === 'blogNews' 
               ? 'bg-blue-600 text-white shadow-md' 
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'

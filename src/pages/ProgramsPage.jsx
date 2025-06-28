@@ -161,10 +161,10 @@ const ProgramsPage = () => {
             Comprehensive incubation programs designed to transform innovative ideas into successful ventures
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#apply" className="px-6 py-3 bg-white text-gray-900 rounded-md font-semibold hover:bg-gray-200 transition-colors">
+            <a href="#apply" className="px-6 py-3 bg-white text-gray-900 rounded-full font-semibold hover:bg-gray-200 transition-colors">
               Apply Now
             </a>
-            <a href="#programs" className="px-6 py-3 bg-transparent border border-white rounded-md font-semibold hover:bg-white hover:text-gray-900 transition-colors">
+            <a href="#programs" className="px-6 py-3 bg-transparent border border-white rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-colors">
               Explore Programs
             </a>
           </div>
@@ -234,12 +234,12 @@ const ProgramsPage = () => {
       <div className="mb-12" id="programs">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">Our Incubation Programs</h2>
         
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 mb-12 ">
           {Object.entries(programs).map(([key, program]) => (
             <button
               key={key}
               onClick={() => setActiveProgram(key)}
-              className={`px-5 py-3 rounded-lg font-medium transition-all duration-300 text-sm md:text-base ${
+              className={`px-5 py-3 rounded-full font-medium transition-all duration-300 text-sm md:text-base ${
                 activeProgram === key 
                   ? `${getColorClass(program.color, 'bg')} text-white` 
                   : `bg-gray-100 ${getColorClass(program.color, 'text')} ${getColorClass(program.color, 'hoverLight')}`
@@ -533,10 +533,10 @@ const ProgramsPage = () => {
             Applications for our next cohort are now open. Submit yours today and begin your journey towards success.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="/apply" className="px-8 py-4 bg-white text-blue-700 rounded-lg font-bold hover:bg-blue-50 transition-colors">
+            <a href="/apply" className="px-8 py-4 bg-white text-blue-700 rounded-full font-bold hover:bg-blue-50 transition-colors">
               Apply Now
             </a>
-            <a href="/contact" className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-bold hover:bg-white hover:text-blue-700 transition-colors">
+            <a href="/contact" className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-full font-bold hover:bg-white hover:text-blue-700 transition-colors">
               Contact Us
             </a>
           </div>

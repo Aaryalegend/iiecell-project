@@ -39,7 +39,7 @@ const KeyHighlights = () => {
           {stats.map((stat) => (
             <div 
               key={stat.id}
-              className="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
+              className="bg-white p-8 rounded-full shadow-md text-center hover:shadow-lg transition-shadow"
             >
               <div className="flex justify-center">
                 {stat.icon}

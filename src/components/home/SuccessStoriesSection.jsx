@@ -59,7 +59,7 @@ const SuccessStoriesSection = () => {
           </p>
         </div>
 
-        <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+        <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Left Column - Image */}
             <div className="h-64 lg:h-auto relative bg-gray-200">

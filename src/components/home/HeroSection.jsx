@@ -24,19 +24,19 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Innovation Incubator and Entrepreneurship Cell is a Section 8 company fostering entrepreneurship and supporting innovative startups.
+            Walchand Engineering and Innovation Council (WEIC) is a Section 8 company dedicated to fostering innovation and nurturing entrepreneurial initiatives among students and early-stage startups.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/apply" className="hidden md:block flex-1 sm:flex-none">
               <button className="p-[3px] relative w-full">
-                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                <div className="px-8 py-3 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent text-lg text-center w-full hover:text-white">
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" />
+                <div className="px-8 py-3 bg-white rounded-full relative group transition duration-200 text-black hover:bg-transparent text-lg text-center w-full hover:text-white">
                   Apply Now
                 </div>
               </button>
             </Link>
-            <Link to="/programs" className="btn-secondary text-center flex-1 sm:flex-none px-8 py-3 text-lg">
+            <Link to="/programs" className="btn-secondary text-center flex-1 sm:flex-none px-8 py-3 text-lg rounded-full">
               Explore Programs
             </Link>
           </div>

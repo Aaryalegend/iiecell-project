@@ -54,7 +54,7 @@ const AboutSection = () => {
               </div>
             </div>
             
-            <Link to="/about" className="btn-primary">
+            <Link to="/about" className="btn-primary rounded-full hover:bg-slate-300 hover:text-blue-600 transition-colors duration-700 px-8 py-3 text-lg">
               Learn More About Us
             </Link>
           </div>

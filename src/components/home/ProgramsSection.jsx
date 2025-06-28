@@ -51,7 +51,7 @@ const ProgramsSection = () => {
           {programs.map((program) => (
             <div 
               key={program.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition-colors duration-300 transform hover:-translate-y-3"
             >
               <div className={`${program.color} p-4 flex justify-center items-center`}>
                 <div className="rounded-full p-3 bg-white/20 backdrop-blur-sm">
@@ -76,7 +76,7 @@ const ProgramsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/programs" className="btn-primary">
+          <Link to="/programs" className="btn-primary rounded-full hover:bg-slate-300 hover:text-blue-600 transition-colors duration-700 px-8 py-3 text-lg">
             View All Programs
           </Link>
         </div>

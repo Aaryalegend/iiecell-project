@@ -14,12 +14,12 @@ const AboutPage = () => {
             sustainable development, social welfare, and economic growth through technology-driven solutions.
           </p>
           <div className="mt-8 flex flex-col md:flex-row justify-center gap-8">
-            <div className="bg-blue-50 p-6 rounded-lg shadow-sm flex-1">
+            <div className="bg-blue-50 p-6 rounded-full shadow-sm flex-1">
               <h3 className="text-xl font-semibold mb-3 text-blue-700">Our Mission</h3>
               <p className="text-gray-700">To nurture innovative ideas and transform them into successful ventures 
               that address real-world challenges while promoting sustainable growth and social impact.</p>
             </div>
-            <div className="bg-green-50 p-6 rounded-lg shadow-sm flex-1">
+            <div className="bg-green-50 p-6 rounded-full shadow-sm flex-1">
               <h3 className="text-xl font-semibold mb-3 text-green-700">Our Vision</h3>
               <p className="text-gray-700">To become a premier innovation hub that empowers entrepreneurs 
               to create solutions for a better tomorrow, fostering inclusive growth and social equity.</p>
